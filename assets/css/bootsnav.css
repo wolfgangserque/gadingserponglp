@@ -1,4 +1,29 @@
+@font-face {
+  font-family: 'Basic Sans', sans-serif;
+  src: url(../fonts/BasicSans-Bold.woff);
+}
+
+@font-face {
+  font-family: 'Pragmatica', sans-serif;
+  src: url(../fonts/Pragmatica.ttf);
+}
+
+:root{
+  --main-font:('Basic Sans');
+  --secondary-font:('Pragmatica');
+}
+
+.main-font{
+  font-family: var(--main-font);
+}
+
+.secondary-font{
+  font-family: var(--secondary-font);
+}
+
+
 /* Navbar Bootstrap */
+
 
 @media (min-width:768px) {
   .nav-box .container, 
@@ -870,7 +895,7 @@ ul.cart-list > li > p {
 ul.cart-list > li.total {
   background-color: #f5f5f5;
   padding-bottom: 15px !important;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Pragmatica', sans-serif;
 }
 
 ul.cart-list > li.total > .btn {

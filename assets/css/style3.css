@@ -1,56 +1,25 @@
-/* ----------------------------------
+@font-face {
+  font-family: 'Basic Sans', sans-serif;
+  src: url(../fonts/BasicSans-Bold.woff);
+}
 
-Template Name: Sasoft - Software Landing Page
-Author: validtheme
-Description:
-Version: 1.0
+@font-face {
+  font-family: 'Pragmatica', sans-serif;
+  src: url(../fonts/Pragmatica.ttf);
+}
 
-Main Font    : Nunito
-Main Color   : #4ac4f3
+:root{
+  --main-font:('Basic Sans');
+  --secondary-font:('Pragmatica');
+}
 
--------------------------------------
+.main-font{
+  font-family: var(--main-font);
+}
 
-Table of contents
-        
-    01. Template default css
-    02. Navbar
-        - Navbar Default
-        - Navbar Transparent
-    03. Banner
-    04. Features
-        - Grid Version
-        - Carousel Version
-    05. Why Choose us
-    06. Step/Process
-    07. Software Overview
-        - Carousel Version
-        - Tabs Version
-    08. FAQ
-    09. Companies/Clients
-    10. Team
-    11. Pricing
-    12. Our Specialty
-    13. Testimonials
-    14. Our Benifits
-    15. Subscribe Form
-    16. Fun Factor
-    17. Blog
-        - Standard
-        - Left Sidebar
-        - Right Sidebar
-        - Single
-    18. Concat Area
-    19. Error 404
-    20. Footer
-    21. PHP Contact Form
-    22. Others
-
-*/
-
-
-/*
-** General Styles for HTML tags
-*/
+.secondary-font{
+  font-family: var(--secondary-font);
+}
 
 * {
   padding: 0;
@@ -65,7 +34,7 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Pragmatica', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
@@ -120,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #232323;
   font-weight: normal;
   line-height: 1.2;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Basic sans', sans-serif;
   letter-spacing: 0;
   margin: 0;
 }
