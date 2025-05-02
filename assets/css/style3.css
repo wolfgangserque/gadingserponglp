@@ -5547,6 +5547,19 @@ a.btn-simple:hover {
   color: #ffffff;
 }
 
+@keyframes shake-soft {
+  0%   { transform: translateX(0); }
+  25%  { transform: translateX(-2px); }
+  50%  { transform: translateX(2px); }
+  75%  { transform: translateX(-2px); }
+  100% { transform: translateX(0); }
+}
+
+.shake-text {
+  display: inline-block;
+  animation: shake-soft 0.6s ease-in-out infinite;
+}
+
 
 /* ============================================================== 
      # Footer 
@@ -5630,7 +5643,7 @@ footer ul li a i {
 }
 
 footer ul li a:hover {
-  color: #4ac4f3;
+  color: var(--red-hdi);
 }
 
 footer p {
