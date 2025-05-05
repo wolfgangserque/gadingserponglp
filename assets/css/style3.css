@@ -452,8 +452,8 @@ input {
 }
 
 .default-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .default-padding-mx {
@@ -709,27 +709,27 @@ input {
 }
 
 .btn-theme {
-  background-color: #4ac4f3;
+  background-color: var(--red-hdi);
   color: #ffffff !important;
-  border: 2px solid #4ac4f3 !important;
+  border: 2px solid var(--red-hdi) !important;
 }
 
 .btn-theme.border {
   background-color: transparent;
-  color: #4ac4f3 !important;
-  border: 2px solid #4ac4f3 !important;
+  color: var(--red-hdi) !important;
+  border: 2px solid var(--red-hdi) !important;
 }
 
 .btn-theme.border:hover {
-  background-color: #4ac4f3;
+  background-color: var(--red-hdi);
   color: #ffffff !important;
-  border: 2px solid #4ac4f3 !important;
+  border: 2px solid var(--red-hdi) !important;
 }
 
 .btn-theme.effect:hover, 
  .btn-theme.effect:focus {
-  background: #4ac4f3 none repeat scroll 0 0;
-  border: 2px solid #4ac4f3 !important;
+  background: var(--red-hdi) none repeat scroll 0 0;
+  border: 2px solid var(--red-hdi) !important;
   color: #ffffff;
 }
 
@@ -2722,7 +2722,7 @@ body,
   background: #ffffff;
   box-shadow: 0 0 10px #e7e7e7;
   border-radius: 7px;
-  display: flex;
+  display: block;
   border-bottom: 2px solid #444345;
   position: relative;
   z-index: 1;
@@ -3844,6 +3844,8 @@ body,
   text-align: left;
   position: relative;
   z-index: 1;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .pricing-item li {
@@ -3856,7 +3858,7 @@ body,
 }
 
 .pricing-item li i {
-  margin-right: 12px;
+  margin-right: 6px;
   color: #30e3ca;
 }
 
@@ -4145,7 +4147,7 @@ body,
 .testimonials-area .carousel-item p {
   font-size: 22px;
   font-family: var(--secondary-font);
-  line-height: 35px;
+  line-height: 29px;
   font-style: italic;
   font-weight: 100;
 }

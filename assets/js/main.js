@@ -204,11 +204,11 @@
             # Overview Carousel
          ===============================================*/
         $('.overview-carousel').owlCarousel({
-            loop: false,
-            nav: true,
+            loop: true,
+            nav: false,
             margin:30,
-            dots: false,
-            autoplay: false,
+            dots: true,
+            autoplay: true,
             items: 1,
             navText: [
                 "<i class='fa fa-angle-left'></i>",
