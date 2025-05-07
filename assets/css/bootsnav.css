@@ -1361,6 +1361,7 @@ nav.navbar.bootsnav {
   left: 0;
   top: 0;
   margin: 0;
+  background-color: var(--red-hdi);
 }
 
 .wrap-sticky nav.navbar.bootsnav.sticked {
